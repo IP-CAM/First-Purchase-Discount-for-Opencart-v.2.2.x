@@ -1,10 +1,10 @@
-# Desconto Primeira Compra Opencart
+# Desconto Primeira Compra Opencart :smile:
 
 -----------
-#### versão Modulo 1.0
+#### versão Modulo 1.1
 * Modulo de desconto para primeira compra 
 * Desconto porcentagem
-* filtro tipo de cliente
-* Escoilha dos status que define uma compra compluida
+* Filtro tipo de cliente
+* Escolha dos status que define uma compra compluida
 -----------
 #### Versão Opencart 2.2.0.0

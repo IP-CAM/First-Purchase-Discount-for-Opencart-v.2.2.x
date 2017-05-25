@@ -13,13 +13,17 @@ $_['text_discount_percent']         = 'Porcentagem';
 
 // Entry
 $_['entry_status']                  = 'Status:';
-$_['entry_min_subtotal_amount']     = 'Quantidade Min SubTotal<span class="help">Subtotal (sem impostos ou outros descontos) necessária antes de o desconto fica disponível<br />Deixe em branco se min subtotal não é necessária</span>';
-$_['entry_customer_groups']         = 'Grupos de clientes:<span class="help">deixe em branco = aplicar a todos os grupos</span>';
-$_['entry_order_statuses']          = 'Contagem pedidos de clientes com estatuto:<span class="help">ex: Complete<br />contar apenas os pedidos com status selecionado</span>';
-$_['entry_check_ip']                = 'Check IP:<span class="help">irá verificar se existe uma ordem de IP atual do cliente. <br />Se não for encontrada uma ordem do mesmo ip = desconto em não permitidos</span>';
+$_['entry_min_subtotal_amount']     = 'Quantidade Min SubTotal';
+$_['entry_min_subtotal_amount_help']     = 'Subtotal (sem impostos ou outros descontos) necessária antes de o desconto fica disponível<br />Deixe em branco se min subtotal não é necessária';
+$_['entry_customer_groups']         = 'Grupos de clientes:';
+$_['entry_customer_groups_help']         = 'deixe em branco = aplicar a todos os grupos';
+$_['entry_order_statuses']          = 'Contagem pedidos de clientes com status:';
+$_['entry_order_statuses_help']          = 'ex: Complete<br />contar apenas os pedidos com status selecionado';
+$_['entry_check_ip']                = 'Check IP:';
+$_['entry_check_ip_help']                = 'irá verificar se existe uma ordem de IP atual do cliente. <br />Se não for encontrada uma ordem do mesmo ip = desconto em não permitidos';
 $_['entry_sort_order']              = 'Ordem de classificação:';
 $_['entry_discount_type']     		= 'tipo de desconto';
-$_['entry_discount_amount']   		= 'valor do desconto'; 
+$_['entry_discount_amount']   		= 'valor do desconto';
 
 // Error
 $_['error_permission']       		= 'Atenção: Você não tem permissão para modificar lealdade módulo vida de desconto!';

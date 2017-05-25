@@ -29,9 +29,13 @@ class ControllerTotalFirstOrderDiscount extends Controller {
 
 		$data['entry_status'] = $this->language->get('entry_status');
 		$data['entry_min_subtotal_amount'] = $this->language->get('entry_min_subtotal_amount');
+		$data['entry_min_subtotal_amount_help'] = $this->language->get('entry_min_subtotal_amount_help');
 		$data['entry_customer_groups'] = $this->language->get('entry_customer_groups');
+		$data['entry_customer_groups_help'] = $this->language->get('entry_customer_groups_help');
 		$data['entry_order_statuses'] = $this->language->get('entry_order_statuses');
+		$data['entry_order_statuses_help'] = $this->language->get('entry_order_statuses_help');
 		$data['entry_check_ip'] = $this->language->get('entry_check_ip');
+		$data['entry_check_ip_help'] = $this->language->get('entry_check_ip_help');
 		$data['entry_sort_order'] = $this->language->get('entry_sort_order');
 
 		$data['entry_discount_type'] = $this->language->get('entry_discount_type');
@@ -170,7 +174,8 @@ class ControllerTotalFirstOrderDiscount extends Controller {
 		}
 
 		if (!isset($this->request->post['first_order_discount_allowed_statuses']) || count($this->request->post['first_order_discount_allowed_statuses']) == 0){
-			$this->error['first_order_discount_allowed_statuses'] = $this->language->get('error_allowed_statuses');
+			$this->error['allowed_statuses'] = $this->language->get('error_allowed_statuses');
+			$this->error['warning'] =$this->language->get('error_allowed_statuses');
 		}
 
 		if (!is_numeric($this->request->post['first_order_discount_discount_amount']) || $this->request->post['first_order_discount_discount_amount'] == 0 || utf8_strlen(trim($this->request->post['first_order_discount_discount_amount'])) == 0) {
