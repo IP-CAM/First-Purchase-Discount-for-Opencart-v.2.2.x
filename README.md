@@ -1,10 +1,9 @@
-# Desconto Primeira Compra Opencart :smile:
+# First Purchase Discount :smile:
 
+#### Modulo 1.1 version
+* Discount module for first purchase
+* Percentage discount
+* Client type filter
+* Choice of statuses that define a completed purchase
 -----------
-#### versão Modulo 1.1
-* Modulo de desconto para primeira compra 
-* Desconto porcentagem
-* Filtro tipo de cliente
-* Escolha dos status que define uma compra compluida
------------
-#### Versão Opencart 2.2.0.0
+#### Opencart Version 2.2.0.0 
